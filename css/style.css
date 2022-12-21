@@ -71,9 +71,29 @@
 
 .img-responsive{
     width:100%;
+    max-width: 100%;
     align-items:center;
     filter: drop-shadow(5px 5px 10px lightgrey);
+    object-fit: cover;
    
+}
+
+.img-responsive-mars{
+    max-width: 100%;
+    max-height: 100%;
+    align-items:center;
+    filter: drop-shadow(5px 5px 10px lightgrey);
+    object-fit: cover;
+   
+}
+
+.portfolio-image{
+    max-width: 100%;
+    max-height: 100%;
+    align-items:center;
+    filter: drop-shadow(5px 5px 10px lightgrey);
+    object-fit: cover;
+
 }
 
 /*** CARD ***/
@@ -88,7 +108,7 @@
 }
 
 .card:hover {
-    filter: drop-shadow(5px 5px 10px black);
+    filter: drop-shadow(5px 5px 10px #2e2e2e);
 }
 
 
