@@ -21,7 +21,7 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color:  #e68a00;
+    color:  #2c7fb8;
     text-decoration: none;
 }
 
@@ -49,7 +49,7 @@
 .navbar-toggler:hover,
 .navbar-toggler:focus {
     background-color: white;
-    color: #e68a00;
+    color: #2c7fb8;
     fill: #242424;
     border-color: #fff;
     box-shadow: 2px 2px 4px lightgray;
@@ -108,8 +108,23 @@
 }
 
 .card:hover {
-    filter: drop-shadow(5px 5px 10px #2e2e2e);
+    filter: drop-shadow(5px 5px 10px #4e4e4e);
+    border-color: #2c7fb8;
+    border-width: 3px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #7989a0;
+    border-color: #7989a0;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2c7fb8;
+    border-color: #2c7fb8;
+}
+
 
 /*** Basic Text Styles ***/
 
