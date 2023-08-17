@@ -137,12 +137,13 @@
     max-width: 250px
 }
 
-
+.portfolio-description {
+    font-size: 16px
+}
 .resume h3 {
     font-weight: bold;
     text-align: center;
 }
-
 
 hr {
     border-color: white;
