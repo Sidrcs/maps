@@ -55,19 +55,19 @@
     box-shadow: 2px 2px 4px lightgray;
 }
 
-/* Jumbotron */
+/* Jumbotron
 
 .jumbotron {
     text-align: center;
     color: black;
-    padding: 3%;
+    padding: 1%;
     border-radius: 0px;
 }
 
 .jumbotron h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
-}
+} */
 
 .img-responsive{
     width:100%;
@@ -134,7 +134,7 @@
 
 #about-world {
     max-height: 500px;
-    max-width: 250px
+    max-width: 250px;
 }
 
 .portfolio-description {
